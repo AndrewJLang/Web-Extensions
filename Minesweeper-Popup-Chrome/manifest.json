@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Minesweeper Popup",
+    "version": "1.0",
+    "description": "Minesweeper easy popup for all to use",
+    "browser_action": {
+        "default_icon": "icons/minesweeper-bomb.jpg",
+        "default_title": "Minesweeper"
+    },
+    "icons": {
+        "128": "icons/minesweeper-bomb.jpg"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
